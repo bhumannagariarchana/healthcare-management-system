@@ -1,0 +1,20 @@
+# Python virtual environment
+backend/venv/
+**/__pycache__/
+*.pyc
+
+# Local SQLite databases
+backend/*.db
+backend/*.db-journal
+
+# Secrets / Config
+backend/.env
+
+# Node dependencies and build files
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# OS temporary files
+.DS_Store
+Thumbs.db
